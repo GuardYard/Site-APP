@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheetIndex.css" />
+    <title>Accueil</title>
+</head>
+<body>
+    <div id="conteneur">
+        <header>
+            <h1 id="titre">PsycHealth</h1>
+        </header>
+        <section class="connexion">
+            <form method="post" action="traitement.php" >
+                <fieldset class="box">
+                    <legend>SIGN IN</legend>
+                    <label for="mail">Your E-mail </label> :
+                    <input type="email" name="mail" id="mail" placeholder="monemail@gmail.com" size="40" autofocus required/>
+
+                    <br />
+                    <br />
+
+                    <label for="pass">My Password</label> :
+                    <input type="password" name="pass" id="pass" size="40" required/>
+                    <br />
+                    <p id="choix">
+                        <label for="remember">Remember me ?</label>
+                        <input type="checkbox" name="remember" id="remember"/>
+                    </p>
+                    <div class="sign">
+                        <input type="submit" value="SIGN IN" class="bouton"/>
+                    </div>
+                </fieldset>
+            </form>
+            <div id="forgot">
+            <a href="#" name="forgotPass" id="forg">Forgot Password ?</a>
+            </div>
+        </section>
+        <div class="separateur">
+            <div class="sep"></div>
+            <p>OR</p>
+            <div class="sep"></div>
+        </div>
+        <div>
+            <a href="#" class="bouton">New Client</a>
+        </div>
+        <br />
+        <div id="langue">
+            <a href="#" class="bouton">English</a>
+        </div>
+        <footer id="basdepage">
+
+        </footer>
+    </div>
+</body>
+</html>
