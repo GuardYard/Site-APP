@@ -13,7 +13,11 @@ header {
     padding-bottom: 2.5%;
     font-family: secret ,Arial, serif;
     font-size: 40px;
+}
+
+#titre{
     color: #be0829;
+    text-decoration: none;
 }
 
 #conteneur {
