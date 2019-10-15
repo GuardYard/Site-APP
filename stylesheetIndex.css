@@ -99,11 +99,10 @@ fieldset{
     height: 5em;
 }
 
-.or{
+#or{
     display: block;
     font-family: Courier New, serif;
-    padding-right: 5%;
-    padding-left: 5%;
+    font-weight: normal;
 }
 
 .sep {
