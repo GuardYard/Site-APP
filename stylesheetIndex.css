@@ -9,7 +9,11 @@ body {
 header {
     text-align: center;
     width: 100%;
-    padding-bottom: 15%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-family: secret ,Arial, serif;
+    font-size: 40px;
+    color: #be0829;
 }
 
 #conteneur {
@@ -27,11 +31,23 @@ html {
 .box {
     justify-content: center;
     align-items: center;
+    background: #fff;
+    border-radius: 6px;
+    border: solid gray 1px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
 }
 
 legend {
     text-align: center;
+    font-weight: bold;
+    font-family: Courier New, serif;
+
+}
+
+label{
+    font-family: Courier New, serif;
+    font-weight: bold;
 }
 
 .connexion {
@@ -41,11 +57,12 @@ legend {
     align-items: center;
 }
 
-#mail:invalid {
-    color: red;
+#mail:before{
+    color: black;
 }
 
-#mail{
+#mail:invalid {
+    color: red;
 }
 
 /*
@@ -64,7 +81,9 @@ fieldset{
 }
 
 #forg {
-    text-decoration: none;
+    text-decoration: underline;
+    color: black;
+    font-family: Courier New, serif;
 }
 
 .separateur {
@@ -72,8 +91,15 @@ fieldset{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 85%;
+    width: 90%;
     height: 5em;
+}
+
+.or{
+    display: block;
+    font-family: Courier New, serif;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .sep {
@@ -111,7 +137,7 @@ fieldset{
 
 #langue {
     align-self: flex-start;
-    padding-top: 9%;
+    padding-top: 7.5%;
 }
 
 @font-face {
@@ -123,11 +149,6 @@ fieldset{
 @font-face {
     font-family: 'casual';
     src: url('polices/casual/Casual-Regular.ttf') format("truetype");
-}
-
-@font-face {
-    font-family: 'kano';
-    src: url("polices/Kano.otf") format("opentype");
 }
 
 @font-face {
@@ -147,9 +168,17 @@ fieldset{
     src: url("polices/secret/TheSecret-Regular.woff") format("woff");
 }
 
+@font-face {
+    font-family: 'domine';
+    src: url(https://fonts.googleapis.com/css?family=Domine&display=swap);
+}
+
 input{
     border-radius: 2px;
-    border:solid #b3d4fc 2px;
+    border:solid gray 1px;
+    font-family: Courier New, serif;
+}
 
-
+input:focus{
+    border-color: cornflowerblue;
 }
