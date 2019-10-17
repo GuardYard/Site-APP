@@ -140,7 +140,8 @@ fieldset{
 
 #langue {
     align-self: flex-start;
-    padding-top: 7.5%;
+    margin-top: 6.5em;
+    /*padding-top: 7.5%;*/
 }
 
 @font-face {
